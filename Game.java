@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class  Game {
+
+public static void main(String[] Args){
+	
+	Scanner scan = new Scanner(System.in);
+	int loc;
+
+	Thing[] things;
+	Room[] rooms;
+
+	things = new Thing[10];
+	rooms = new Room[10];
+
+	things[1] = new Thing(1,"A handheld lamp","glowing magically",1);
+	rooms[1] = new Room(1,"The main hall","Shadows of former glory",0,0,0,0);
+	
+	System.out.println("Welcome to adventure!");
+	
+	while (true) {
+		loc = scan.nextInt();
+		rooms[loc].describe();
+		things[loc].describe();
+		}	
+	}	
+}
+
