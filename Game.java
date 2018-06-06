@@ -14,7 +14,10 @@ public static void main(String[] Args){
 	rooms = new Room[10];
 
 	things[1] = new Thing(1,"A handheld lamp","glowing magically",1);
-	rooms[1] = new Room(1,"The main hall","Shadows of former glory",0,0,0,0);
+	things[2] = new Thing(2,"A snake","emerald green",2);
+
+	rooms[1] = new Room(1,"The main hall","Shadows of glory",0,0,0,0);
+	rooms[2] = new Room(2,"The dungeon","Dark and cobwebby",0,0,0,0);
 	
 	System.out.println("Welcome to adventure!");
 	
