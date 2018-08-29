@@ -1,4 +1,4 @@
 # JavaAdvent
-Adventure in Java - new branch!
+Adventure in Java - another branch!
 
 
